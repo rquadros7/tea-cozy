@@ -3,87 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Resources\CSS\index - Copy.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="Resources\Images\favicon-16x16.png">
     <title>Tea Cozy</title>
-    <link rel="stylesheet" type="text/css" href="Resources\CSS\index.css">
 </head>
 
 <body>
-
     <header>
         <nav class="navigation-bar">
             <img class="logo" src="Resources\Images\img-tea-cozy-logo.png">
             <ul>
-                <li>Mission</li>
-                <li>Featured Tea</li>
-                <li>Locations</li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#featured-tea">Featured Tea</a></li>
+                <li><a href="#locations">Locations</a></li>
             </ul>
         </nav>
-
     </header>
-    
-    <main>
 
-        <div class="mission">
-            <img src="Resources\Images\img-mission-background.jpg">        
-            <h2>Our Mission</h2>
-            <h4>Handpicked, Artisinally curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>           
+    <!--Mission section-->
+
+    <section id="mission">
+        <div class="container">
+            <img src="Resources\Images\img-mission-background.jpg" alt="image of dry tea leaves">
+            <div class="text">
+                <h2>Our Mission</h2>
+                <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, 
+                    Organic Tea</h4>
+            </div>
         </div>
-        
-        <div class="tea-of-the-month">
-            <h2>Tea of the Month</h2>
-            <h4>What's Steeping at The Tea Cozy?</h4>
+    </section>
+
+    <!--Featured Tea section-->
+
+    <section id="featured-tea">
+        <h2>Tea of the Month</h2>
+        <h3>What's sleeping at Tea Cozy?</h3>
+        <div class="container">
+            <div class="item">
+                <img src="Resources\Images\img-berryblitz.jpg" alt="image of tea with berries">
+                <h4>Fall Berry Blitz Tea</h4>
+            </div>            
+            <div class="item">
+                <img src="Resources\Images\img-spiced-rum.jpg" alt="image of a wooden container with tea bags">
+                <h4>Spiced Rum Tea</h4>
+            </div>
+            <div class="item">
+                <img src="Resources\Images\img-donut.jpg" alt="image of a donut">
+                <h4>Seasonal Donut</h4>
+            </div>
         </div>
+        <div class="container-2">
+            <div class="item">
+                <img src="Resources\Images\img-myrtle-ave.jpg" alt="image of a cup of tea">
+                <h4>Myrtle Ave Tea</h4>
+            </div>
+            <div class="item">
+                <img src="Resources\Images\img-bedford-bizarre.jpg" alt="image of a cup of tea and sugar">
+                <h4>Bedford Bizarre Tea</h4>
+            </div>
+        </div>
+    </section>
 
-            <table>
-                <tr>
-                    <td><img src="Resources\Images\img-berryblitz.jpg"></td>
-                    <td><img src="Resources\Images\img-spiced-rum.jpg"></td>
-                    <td><img src="Resources\Images\img-donut.jpg"></td>
-                </tr>
-                <tr>
-                    <td>Fall Berry Blitz Tea</td>
-                    <td>Spiced Rum Tea</td>
-                    <td>Seasonal Donuts</td>
-                </tr>
-                <tr>
-                    <td><img src="Resources\Images\img-donut.jpg"></td>
-                    <td><img src="Resources\Images\img-bedford-bizarre.jpg"></td>                    
-                </tr>
-                <tr>
-                    <td>Mrytle Ave Tea</td>
-                    <td>Bedford Bizarre Tea</td>
-                </tr>
-            </table>
+    <!--Locations section-->
 
-        <div class="locations">
+    <section id="locations">
+        <div class="container">
             <h2>Locations</h2>
-            <img src="Resources\Images\img-locations-background.jpg">
-              <div class="container" id="1">
-                  <h3>Downtown</h3>
-                  <h4>384 West 4th Street</h4> <h4>Suite 108</h4><h4>Portland, Maine</h4>
-              </div>   
-              <div class="container" id="2">
-                  <h3>East Bayside</h3>
-                  <h4>3233 Phisherman's Avenue</h4><h4>(Northwest Corner)</h4><h4>Portland, Maine</h4>
-              </div>
-              <div class="container" id="3">
-                  <h3>Oakdale</h3>
-                  <h4>515 Crescent Avenue</h4><h4>Second Floor</h4><h4>Portland,Maine</h4>
-              </div>
+            <img src="Resources\Images\img-locations-background.jpg" alt="image of a cup of tea">
+                <div class="container-2">
+                    <div class="block">
+                        <h3>Downtown</h3>
+                        <p>384 West 4th St</p>
+                        <p>Suite 108</p>
+                        <p>Portland, Maine</p>
+                    </div>                    
+                    <div class="block">
+                        <h3>East Bayside</h3>
+                        <p>3433 Phisherman's Avenue</p>
+                        <p>(Northwest Corner)</p>
+                        <p>Portland, Maine</p>
+                    </div>                                        
+                    <div class="block">
+                        <h3>Oakdale</h3>
+                        <p>515 Cresent Avenue</p>
+                        <p>Second Floor</p>
+                        <p>Portland, Maine</p>
+                    </div>
+                </div>
         </div>
+    </section>
 
-        <div class="pre-footer">
-            <h1>The Tea Cozy</h1>
-            <h5>contact@theteacozy.com</h5>
-            <h5>917-555-8904</h5>
-        </div>
-
-    </main>
-
-    <footer>
-        <h5>Copyright The Tea Cozy 2020</h5>
-    </footer>
+    <aside>
+        <h2>The Tea Cozy</h2>
+        <h5>contact@theteacozy.com</h5>
+        <h5>917-555-8904</h5>
+    </aside>
     
 </body>
+
+<footer>
+    <h5>&copy;The Tea Cozy 2020</h5>
+</footer>
 
 </html>
